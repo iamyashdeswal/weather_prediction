@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url('sky.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 90%;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0 0 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #584a9c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#weather-info {
+    display: none;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+/* Style the importance section */
+.weather-importance {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    text-align: left;
+    opacity: 80%;
+}
+
+.weather-importance p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.weather-importance ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Style the list items */
+.weather-importance li {
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+/* Style the section title */
+.weather-importance h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Style the process section */
+.weather-process {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    text-align: left;
+    opacity: 80%;
+}
+
+.weather-process p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.weather-process ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* Style the process list items */
+.weather-process li {
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+/* Style the section title */
+.weather-process h2 {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Style the intro section */
+.intro-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 20px;
+    text-align: left;
+    opacity: 80%;
+}
+
+.intro-section p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 15px;
+}
+
+/* Style the header */
+.weather-header {
+    background-color: #584a9c;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px;
+    background: none;
+}
+
+.weather-header h1 {
+    font-size: 30px;
+    margin: 0;
+}
